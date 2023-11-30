@@ -23,6 +23,11 @@ typedef struct binary_tree_s binary_tree_t;
 
 /* binary_tree_print.c */
 void binary_tree_print(const binary_tree_t *tree);
+
+/* 0-binary_tree_node.c */
 binary_tree_t *binary_tree_node(binary_tree_t *parent, int value);
+
+/* 1-binary_tree_insert_left.c */
+binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value);
 
 #endif /* BINARY_TREES_H */
